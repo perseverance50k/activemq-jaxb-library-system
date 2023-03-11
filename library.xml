@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Library>
+    <Library_Books>
+        <Book_ID>1</Book_ID>
+        <Book_Author_ID>1</Book_Author_ID>
+        <Book_Title>Java Core</Book_Title>
+        <Book_Edition>9</Book_Edition>
+        <Book_Release_Date>02-10-2016</Book_Release_Date>
+    </Library_Books>
+    <Library_Books>
+        <Book_ID>2</Book_ID>
+        <Book_Author_ID>3</Book_Author_ID>
+        <Book_Title>Atomic Habits</Book_Title>
+        <Book_Edition>9</Book_Edition>
+        <Book_Release_Date>07-15-2018</Book_Release_Date>
+    </Library_Books>
+    <LibraryLoans>
+        <Loan_ID>1</Loan_ID>
+        <Loan_Student_ID>2</Loan_Student_ID>
+        <Loan_Book_ID>1</Loan_Book_ID>
+        <Loan_From>03-01-2023</Loan_From>
+        <Loan_To>10-01-2023</Loan_To>
+    </LibraryLoans>
+</Library>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Book>
+    <Book_ID>1</Book_ID>
+    <Book_Author_ID>1</Book_Author_ID>
+    <Book_Title>Java Core</Book_Title>
+    <Book_Edition>9</Book_Edition>
+    <Book_Release_Date>02-10-2016</Book_Release_Date>
+</Book>
