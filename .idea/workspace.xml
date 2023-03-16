@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="53386cd1-49ed-4d3d-aafc-f547e709cd10" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2McxggsH76xDWdqBg21j0d0NHzG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/Users/sergeychernikov/Documents/Documents/Development/Intellij IDEA Workspace/paid-works/LibrarySystem-simplified-and-finished/src/main/resources/xml",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.41724136",
+    "spring.configuration.checksum": "d41d8cd98f00b204e9800998ecf8427e"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/xml" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/input" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/xsd" />
+      <recent name="$PROJECT_DIR$/src/main/resources/output" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.olhas.librarysystem.server.jaxb.service" />
+      <recent name="org.olhas.librarysystem.server.jaxb.adapters" />
+      <recent name="org.olhas.librarysystem.models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SendFileApp">
+    <configuration name="ConsumeFileApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.olhas.librarysystem.server.jms.ConsumeFileApp" />
+      <module name="LibrarySystem-simplified-and-finished" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.olhas.librarysystem.server.jms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SendFileApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.olhas.librarysystem.server.jms.SendFileApp" />
+      <module name="LibrarySystem-simplified-and-finished" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.olhas.librarysystem.server.jms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateAdapterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibrarySystem-simplified-and-finished" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.olhas.librarysystem.server.jaxb.adapters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.olhas.librarysystem.server.jaxb.adapters" />
+      <option name="MAIN_CLASS_NAME" value="org.olhas.librarysystem.server.jaxb.adapters.DateAdapterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateAdapterTest.textMarshal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibrarySystem-simplified-and-finished" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.olhas.librarysystem.server.jaxb.adapters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.olhas.librarysystem.server.jaxb.adapters" />
+      <option name="MAIN_CLASS_NAME" value="org.olhas.librarysystem.server.jaxb.adapters.DateAdapterTest" />
+      <option name="METHOD_NAME" value="textMarshal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JaxbServiceTest.testConvertToPOJO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibrarySystem-simplified-and-finished" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.olhas.librarysystem.server.jaxb.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.olhas.librarysystem.server.jaxb.service" />
+      <option name="MAIN_CLASS_NAME" value="org.olhas.librarysystem.server.jaxb.service.JaxbServiceTest" />
+      <option name="METHOD_NAME" value="testConvertToPOJO" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SendFileApp" />
+        <item itemvalue="Application.ConsumeFileApp" />
+        <item itemvalue="JUnit.JaxbServiceTest.testConvertToPOJO" />
+        <item itemvalue="JUnit.DateAdapterTest.textMarshal" />
+        <item itemvalue="JUnit.DateAdapterTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53386cd1-49ed-4d3d-aafc-f547e709cd10" name="Changes" comment="" />
+      <created>1678080786315</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678080786315</updated>
+      <workItem from="1678080788771" duration="10430000" />
+      <workItem from="1678202883986" duration="2966000" />
+      <workItem from="1678220634864" duration="76000" />
+      <workItem from="1678307771641" duration="33000" />
+      <workItem from="1678308009542" duration="157000" />
+      <workItem from="1678308180437" duration="134000" />
+      <workItem from="1678308422781" duration="650000" />
+      <workItem from="1678340399324" duration="15000" />
+      <workItem from="1678436897117" duration="1279000" />
+      <workItem from="1678455479367" duration="360000" />
+      <workItem from="1678541357682" duration="13647000" />
+      <workItem from="1678564341828" duration="274000" />
+      <workItem from="1678623777393" duration="207000" />
+      <workItem from="1678860217016" duration="11126000" />
+      <workItem from="1678893055322" duration="7660000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LibrarySystem$org_olhas_librarysystem_models_in_LibrarySystem.ic" NAME="org.olhas.librarysystem.models in LibrarySystem Coverage Results" MODIFIED="1678085528414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.olhas.librarysystem.models.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/LibrarySystem_simplified_and_finished$AuthorTest_testToString.ic" NAME="AuthorTest.testToString Coverage Results" MODIFIED="1678871607657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.olhas.librarysystem.models.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/LibrarySystem_simplified_and_finished$LibraryTest_testEquals.ic" NAME="LibraryTest.testEquals Coverage Results" MODIFIED="1678870099474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.olhas.librarysystem.models.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/LibrarySystem_simplified_and_finished$LibraryTest_testToString.ic" NAME="LibraryTest.testToString Coverage Results" MODIFIED="1678866934326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.olhas.librarysystem.models.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/LibrarySystem_simplified_and_finished$StudentTest_testToString.ic" NAME="StudentTest.testToString Coverage Results" MODIFIED="1678870918001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.olhas.librarysystem.models.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/LibrarySystem_simplified_and_finished$JaxbServiceTest_testConvertToPOJO.ic" NAME="JaxbServiceTest.testConvertToPOJO Coverage Results" MODIFIED="1678899606375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.olhas.librarysystem.server.jaxb.service.*</FILTER>
+    </SUITE>
+  </component>
+</project>

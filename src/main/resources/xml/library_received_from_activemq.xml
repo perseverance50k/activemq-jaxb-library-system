@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Library>
+    <Library_Name>The British Library</Library_Name>
+    <Books>
+        <Library_Book>
+            <Book_ID>5</Book_ID>
+            <Book_Author_ID>3</Book_Author_ID>
+            <Book_Title>Some Awesome Title</Book_Title>
+            <Book_Edition>5</Book_Edition>
+            <Book_Release_Date>2016-02-14</Book_Release_Date>
+        </Library_Book>
+        <Library_Book>
+            <Book_ID>6</Book_ID>
+            <Book_Author_ID>3</Book_Author_ID>
+            <Book_Title>Garry Potter</Book_Title>
+            <Book_Edition>3</Book_Edition>
+            <Book_Release_Date>2019-07-15</Book_Release_Date>
+        </Library_Book>
+        <Library_Book>
+            <Book_ID>7</Book_ID>
+            <Book_Author_ID>4</Book_Author_ID>
+            <Book_Title>Awesome Book #3</Book_Title>
+            <Book_Edition>3</Book_Edition>
+            <Book_Release_Date>2019-03-12</Book_Release_Date>
+        </Library_Book>
+        <Library_Book>
+            <Book_ID>11</Book_ID>
+            <Book_Author_ID>5</Book_Author_ID>
+            <Book_Title>Awesome Book #4</Book_Title>
+            <Book_Edition>1</Book_Edition>
+            <Book_Release_Date>2015-03-15</Book_Release_Date>
+        </Library_Book>
+        <Library_Book>
+            <Book_ID>15</Book_ID>
+            <Book_Author_ID>4</Book_Author_ID>
+            <Book_Title>Awesome Book #5</Book_Title>
+            <Book_Edition>10</Book_Edition>
+            <Book_Release_Date>2016-07-15</Book_Release_Date>
+        </Library_Book>
+    </Books>
+    <Loans>
+        <Library_Loan>
+            <Loan_ID>3</Loan_ID>
+            <Loan_Student_ID>1</Loan_Student_ID>
+            <Loan_Book_ID>6</Loan_Book_ID>
+            <Loan_From>2023-01-05</Loan_From>
+            <Loan_To>2023-01-10</Loan_To>
+        </Library_Loan>
+    </Loans>
+</Library>

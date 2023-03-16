@@ -1,0 +1,43 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Library">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="Library_Name"/>
+        <xs:element name="Books">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Library_Book" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:byte" name="Book_ID"/>
+                    <xs:element type="xs:byte" name="Book_Author_ID"/>
+                    <xs:element type="xs:string" name="Book_Title"/>
+                    <xs:element type="xs:byte" name="Book_Edition"/>
+                    <xs:element type="xs:date" name="Book_Release_Date"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Loans">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Library_Loan">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:byte" name="Loan_ID"/>
+                    <xs:element type="xs:byte" name="Loan_Student_ID"/>
+                    <xs:element type="xs:byte" name="Loan_Book_ID"/>
+                    <xs:element type="xs:date" name="Loan_From"/>
+                    <xs:element type="xs:date" name="Loan_To"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE Library [
+        <!ELEMENT Library (Library_Name|Books|Loans)*>
+        <!ELEMENT Library_Name (#PCDATA)>
+        <!ELEMENT Books (Library_Book)*>
+        <!ELEMENT Library_Book (Book_ID|Book_Author_ID|Book_Title|Book_Edition|Book_Release_Date)*>
+        <!ELEMENT Book_ID (#PCDATA)>
+        <!ELEMENT Book_Author_ID (#PCDATA)>
+        <!ELEMENT Book_Title (#PCDATA)>
+        <!ELEMENT Book_Edition (#PCDATA)>
+        <!ELEMENT Book_Release_Date (#PCDATA)>
+        <!ELEMENT Loans (Library_Loan)*>
+        <!ELEMENT Library_Loan (Loan_ID|Loan_Student_ID|Loan_Book_ID|Loan_From|Loan_To)*>
+        <!ELEMENT Loan_ID (#PCDATA)>
+        <!ELEMENT Loan_Student_ID (#PCDATA)>
+        <!ELEMENT Loan_Book_ID (#PCDATA)>
+        <!ELEMENT Loan_From (#PCDATA)>
+        <!ELEMENT Loan_To (#PCDATA)>
+        ]>
