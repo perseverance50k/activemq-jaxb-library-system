@@ -9,6 +9,9 @@ import java.time.LocalDate;
  * Since JAXB know only common data types like strings and integer numbers
  * out-of-the-box, this adapter is used to convert LocalDate to String and
  * vice versa depending on the operation being performed.
+ *
+ * @author Olha
+ * @version 1.0
  */
 public class DateAdapter extends XmlAdapter<String, LocalDate> {
 

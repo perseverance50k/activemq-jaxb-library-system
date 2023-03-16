@@ -6,7 +6,9 @@ import org.olhas.librarysystem.models.Book;
 import org.olhas.librarysystem.models.Library;
 import org.olhas.librarysystem.models.Loan;
 
-import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -17,18 +19,32 @@ class JaxbServiceTest {
 
     private final JaxbService jaxbService = new JaxbService();
 
+    /**
+     * Checks that {@link JaxbService} performs marshalling operation correctly.
+     *
+     * @throws JAXBException if XML code isn't valid
+     */
     @Test
-    void testTransformToXML() throws JAXBException {
+    void testTransformToXML() throws JAXBException, IOException {
+        // TODO: write a test for marshalling operation
+        final String expected = Files.readString(Paths.get("src/test/resources/test_library.xml")) + "\n";
         Library library = createMockLibraryInstance();
-        jaxbService.transformToXML(library);
+        String marshalledToXml = jaxbService.transformToXML(library);
+
+        assertEquals(expected, marshalledToXml);
     }
 
+    /**
+     * Checks that {@link JaxbService} performs unmarshalling operation correctly.
+     *
+     * @throws JAXBException if XML code isn't valid
+     */
     @Test
     void testConvertToPOJO() throws JAXBException {
         Library library = jaxbService.convertToPOJO("src/test/resources/test_library.xml");
         assertEquals("The British Library", library.getName());
-        assertEquals(library.getBooks().size(), 5);
-        assertEquals(library.getLoans().size(), 1);
+        assertEquals(library.getBooks().size(), 6);
+        assertEquals(library.getLoans().size(), 3);
     }
 
     private static Library createMockLibraryInstance() {

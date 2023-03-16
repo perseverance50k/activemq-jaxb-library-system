@@ -91,6 +91,6 @@ public class QueueMessageConsumer implements MessageListener {
 
         // Marshall Library POJO back to XML
         System.out.println("\nLibrary POJO marshalled back to XML:");
-        jaxbService.transformToXML(library);
+        System.out.println(jaxbService.transformToXML(library));
     }
 }

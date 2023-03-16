@@ -8,6 +8,7 @@ import org.olhas.librarysystem.models.Library;
 
 import javax.xml.transform.Result;
 import java.io.File;
+import java.io.StringWriter;
 
 /**
  * Service used to provide marshalling/unmarshalling operations.
@@ -17,9 +18,10 @@ public class JaxbService {
      * Transforms passed {@link Library} object to XML and outputs it to the console.
      *
      * @param object {@link Library} object to be marshalled
+     * @return a string with XML representation of passed {@link Library} object.
      * @throws JAXBException if some error happens
      */
-    public void transformToXML(Library object) throws JAXBException {
+    public String transformToXML(Library object) throws JAXBException {
         /* init jaxb marshaller */
         JAXBContext jaxbContext = JAXBContext.newInstance(Library.class);
         Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
@@ -27,8 +29,11 @@ public class JaxbService {
         /* set this flag to true to format the output */
         jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 
-        /* marshalling of java object into xml (output to console) */
-        jaxbMarshaller.marshal(object, System.out);
+        /* save the result of marshalling into StringWriter and return it as String */
+        StringWriter writer = new StringWriter();
+        jaxbMarshaller.marshal(object, writer);
+
+        return writer.toString();
     }
 
     /**

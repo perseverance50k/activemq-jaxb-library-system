@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!DOCTYPE Library SYSTEM "../dtd/library_dtd.dtd">
-<Library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:noNamespaceSchemaLocation="../xsd/library_xsd.xsd">
+<!--<!DOCTYPE Library SYSTEM "library_validation.dtd">-->
+<Library>
     <Library_Name>The British Library</Library_Name>
     <Books>
         <Library_Book>
